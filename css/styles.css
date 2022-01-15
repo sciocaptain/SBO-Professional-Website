@@ -1,0 +1,535 @@
+html {
+  overflow-x:hidden;
+}
+body{
+  overflow-x:hidden;
+  overflow: hidden
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+hr {
+  border-width: 5px;
+  width: 75%;
+}
+
+/* HOME PAGE  */
+
+/* Phone Bar */
+.phonebar {
+  background-color: #fff;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 80px;
+}
+
+@media (max-width: 1000px) {
+  .phonebar {
+    display: none;
+  }
+}
+/* Navigation Bar */
+.navbar {
+  padding: 2rem 5rem 2.5rem 5rem;
+  /* background-color: #ffe8df; */
+  background-color: #C1FEFE;
+}
+
+.navbarsmall {
+  padding-right: 13%;
+}
+
+.navi-item {
+  padding: 0 6px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: 'Montserrat-black' , sans-serif;
+}
+
+.secondsbologo {
+  margin-left: -30px;
+  width: 85%;
+}
+
+
+
+
+
+.mainlogo {
+  width: 25vw;
+}
+@media (max-width: 1000px) {
+  .mainlogo {
+    width: 40vw;
+  }
+}
+@media (max-width: 500px) {
+  .mainlogo {
+    width: 40vw;
+  }
+}
+
+/* Second Navigation Bar */
+
+.navbarstuck {
+  position: fixed;
+  z-index: 9998;
+  width: 100%;
+}
+
+.returnhome {
+  font-size: 2.2rem;
+}
+
+.mapicon {
+  font-size: 2rem;
+}
+
+.maintabs {
+  padding-top: 18%;
+  padding-bottom: 5%;
+}
+
+/* Logo on second navigation bar */
+
+.stonylogo1 {
+  margin: -50px;
+  width: 25vw;
+}
+
+@media (max-width: 1000px) {
+  .stonylogo1 {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .stonylogo1 {
+    width: 45vw;
+  }
+}
+
+
+/* Title Page */
+.hundredpercent {
+  width: 100%
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.title-bg {
+  height: 80%;
+  width: 100%;
+  margin: 0 0;
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  top:150px ;
+  left:50px ;
+
+}
+
+.appointment-title {
+  top:300px ;
+  left:50px;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .appointment-title {
+    margin-top:10%;
+  }
+}
+
+.appointmentbuttoncolor {
+  color: #fff;
+  text-decoration: none;
+}
+.appointmentbuttoncolor:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Welcome Page */
+.welcomepage {
+  margin-top: 575px;
+  text-align: center;
+}
+
+/* COMPUTER RESPONSIVNESS HOME PAGE */
+
+@media (max-width: 1300px) and (min-width: 1000px) and (max-height: 1000px) and (min-height: 900px)    {
+  .welcomepage {
+    margin-top: 70%;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 900px)    {
+  .welcomepage {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 800px)    {
+  .welcomepage {
+    margin-top: 70%;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 700px)    {
+  .welcomepage {
+    margin-top: 80%;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 600px)    {
+  .welcomepage {
+    margin-top: 85%;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 500px)    {
+  .welcomepage {
+    margin-top: 97%;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 450px)    {
+  .welcomepage {
+    margin-top: 115%;
+  }
+}
+
+@media (max-width: 450px) and (min-width: 400px)    {
+  .welcomepage {
+    margin-top: 125%;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 350px)    {
+  .welcomepage {
+    margin-top: 140%;
+  }
+}
+
+@media (max-width: 350px) and (min-width: 325px)    {
+  .welcomepage {
+    margin-top: 160%;
+  }
+}
+
+@media (max-width: 325px) and (min-width: 300px)    {
+  .welcomepage {
+    margin-top: 170%;
+  }
+}
+
+@media (max-width: 300px) and (min-width: 250px)    {
+  .welcomepage {
+    margin-top: 190%;
+  }
+}
+
+/* TABLET RESPONSIVENESS HOME PAGE */
+
+    /* ipad */
+@media (max-width: 800px) and (min-width: 700px) and (max-height: 1200px) and (min-height: 1000px){
+  .welcomepage {
+    margin-top: 120%;
+  }
+}
+
+    /* ipad pro */
+@media (max-width: 1100px) and (min-width: 1000px) and (max-height: 1400px) and (min-height: 1300px)    {
+  .welcomepage {
+    margin-top: 115%;
+  }
+}
+
+
+/* PHONE RESPONSIVENESS HOME PAGE */
+
+    /* 360 by 640 pixel phone pretty standard in size*/
+@media (max-width: 400px) and (min-width: 300px) and (max-height: 670px) and (min-height: 610px)   {
+  .welcomepage {
+    margin-top: 165%;
+  }
+}
+
+    /* pixel 2 phone */
+@media (max-width: 500px) and (min-width: 380px) and (max-height: 770px) and (min-height: 700px)   {
+  .welcomepage {
+    margin-top: 165%;
+  }
+}
+
+    /* pixel 2XL phone */
+@media (max-width: 500px) and (min-width: 380px) and (max-height: 850px) and (min-height: 770px)   {
+  .welcomepage {
+    margin-top: 175%;
+  }
+}
+
+    /* Iphone X */
+@media (max-width: 400px) and (min-width: 300px) and (max-height: 850px) and (min-height: 750px)   {
+  .welcomepage {
+    margin-top: 190%;
+  }
+}
+
+.circlefeatures {
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.circlefeatures:hover {
+  box-shadow: 0 0 8px 2px #888
+}
+
+.featurerow {
+  margin: 5% 10%;
+}
+
+.feature-box {
+  width: 80vw;
+  text-align: center;
+}
+
+/* Before and After photos */
+
+.beforeandafterphotos {
+  width: 300px;
+  height:280px;
+  margin: 50px;
+}
+
+/* Common Services Page */
+#services {
+  background-color: #d4f3ef;
+}
+
+.services-title {
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #545454;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.service-images {
+  text-align: center;
+  width: 100%;
+  padding: 7%;
+}
+
+.service-images:hover {
+  opacity: 0.5;
+}
+/* Testimonial Page */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #195e83;
+}
+
+.carousel-item {
+  margin: 0 15%;
+  width: 75%;
+}
+
+
+/* Footer Page */
+#footer {
+  background-color: #d4f3ef;
+  text-align:center;
+  padding: 0 3% 3% 3%;
+}
+
+.appointment-footer {
+  margin: 3% 0 0 0;
+  padding-top: 5%;
+}
+
+.icons {
+  font-size: 3rem;
+}
+
+.icons:hover {
+  color: #595959
+}
+
+.copyright {
+  margin: 1% 10% 3% 10%;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.2;
+  text-align: center;
+}
+
+.attribute {
+  padding: 10% auto;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.2;
+  text-align: center;
+}
+
+/* MAIN PAGES */
+
+/* appointment request form  */
+
+.form-group {
+  margin: 5% 0;
+}
+
+/* New Patients | Patient Forms */
+
+.patientform3 {
+  margin-top: 30%;
+  margin-bottom: 400px;
+}
+
+@media (max-width: 1000px) {
+  .patientform2, .patientform3 {
+    margin-top: 400px;
+  }
+}
+
+/* Insurance Page */
+.insuranceslist {
+  text-align: center;
+}
+.insuranceorderedlist {
+  display: inline-block; text-align: left;
+}
+
+
+/* SERVICES TREATMENTS */
+.page-titles {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 18%;
+  padding-bottom: 5%;
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 1000px) {
+  .page-titles {
+    padding: 5% auto 0 auto;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 700px) {
+  .page-titles {
+    padding: 30% 10% 0 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-titles {
+    padding: 50% 10% 0 10%;
+    font-size: 1.5rem;
+  }
+}
+
+.services-padding {
+  margin: 0 20%;
+}
+
+@media (max-width: 1000px) {
+  .services-padding {
+    margin: 10% 3%;
+  }
+}
+
+.servicesinfo {
+  margin: 5% 0;
+}
+
+.meshpattern {
+opacity: .04;
+position: absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.fullpattern {
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* Meet US | Dr Segal */
+
+.drsegal {
+  border-radius: 100%;
+  width: 70%;
+}
+
+@media (max-width: 500px) {
+  .drsegal {
+    margin-top: 100px;
+  }
+}
+
+/* Meet US | Spacing */
+
+.meetus {
+  margin: 0 8% 5% 16%;
+}
+
+.meetusspace {
+  margin-top: 5%;
+}
+
+@media (max-width: 1000px) {
+  .meetus {
+      margin: 0 8% 5% 25%;
+    }
+}
+@media (max-width: 500px) {
+  .meetus {
+    margin: 0 2% 5% 2%;
+  }
+}
+
+/* Meet Us | Office Tour Carousel */
+.officetourcarousel {
+ margin:3% auto 0;
+ width: 60%;
+ height: 60%;
+}
+
+
+
+/* RANDOM UNORGANIZED CODE */
+
+.center-text {
+  text-align: center;
+}
